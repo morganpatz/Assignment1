@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Assignment1</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_to_do">ToDo</string>
+    <string name="title_activity_archive">Archive</string>
+    <string name="title_activity_email">Email</string>
+
+</resources>
