@@ -34,6 +34,14 @@
             android:name="com.example.assignment1.Email"
             android:label="@string/title_activity_email" >
         </activity>
+        <activity
+            android:name="com.example.assignment1.ToDoMain"
+            android:label="@string/title_activity_to_do_main" >
+        </activity>
+        <activity
+            android:name="com.example.assignment1.Stats"
+            android:label="@string/title_activity_stats" >
+        </activity>
     </application>
 
 </manifest>

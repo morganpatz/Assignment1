@@ -6,29 +6,36 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity" >
+    tools:context=".Stats" >
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/todoUncheck"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
-
-    <Button
-        android:id="@+id/btn_todo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
+        android:layout_below="@+id/todoCheck"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="75dp"
-        android:text="To Do List" />
+        android:layout_marginTop="24dp"
+        android:text="todoUncheck"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
 
-    <Button
-        android:id="@+id/btn_stats"
+    <TextView
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btn_todo"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="List Stats" />
+        android:layout_marginTop="92dp"
+        android:text="List Stats"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/todoCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="todoCheck"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
 
 </RelativeLayout>

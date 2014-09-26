@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#000000"
+    android:background="#FFFFFF"
     tools:context=".ToDo" >
 
     <ImageButton
@@ -59,13 +59,14 @@
         android:gravity="center"
         android:hint="Add a new task" />
 
-    <ImageButton
-        android:id="@+id/imageButton1"
+    <Button
+        android:id="@+id/add"
+        style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/btn_email"
-        android:layout_alignRight="@+id/btn_email"
-        android:src="@drawable/ic_add" />
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_toRightOf="@+id/editText1"
+        android:text="Add" />
     
 </RelativeLayout>
 

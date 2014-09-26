@@ -24,7 +24,7 @@ public class Task {
 	}
 
 	public void setSelected(boolean selected) {
-		this.selected = selected;
+		this.selected = true;
 	}
 
 }

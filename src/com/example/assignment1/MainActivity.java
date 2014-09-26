@@ -22,12 +22,23 @@ public class MainActivity extends Activity {
 		
 
 		Button todo = (Button) findViewById(R.id.btn_todo);
+		Button stats = (Button) findViewById(R.id.btn_stats);
 
 		todo.setOnClickListener(new View.OnClickListener() {
 
 			public void onClick(View v) {
 				Intent myIntent = new Intent(MainActivity.this,
-						ToDo.class);
+						ToDoMain.class);
+				startActivity(myIntent);
+
+			}
+		});
+		
+		stats.setOnClickListener(new View.OnClickListener() {
+
+			public void onClick(View v) {
+				Intent myIntent = new Intent(MainActivity.this,
+						Stats.class);
 				startActivity(myIntent);
 
 			}

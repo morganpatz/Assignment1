@@ -7,5 +7,7 @@
     <string name="title_activity_to_do">ToDo</string>
     <string name="title_activity_archive">Archive</string>
     <string name="title_activity_email">Email</string>
+    <string name="title_activity_to_do_main">ToDoMain</string>
+    <string name="title_activity_stats">Stats</string>
 
 </resources>
